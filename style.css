@@ -54,7 +54,8 @@ header{
 .section-hero{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: black;
+    background: #2F303A;
+
 }
 body{
     margin: 0;
@@ -74,8 +75,68 @@ margin: 0 auto;
     width: 216px;
     height: 50px;
     border-radius: 4px;
-    background-color: blue;
+    background: #2196F3;
     color: #FFFFFF;
     display: block;
     margin: 0 auto;
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.features-list li{
+    max-width: 270px;
+}
+.section-work{
+    padding-bottom: 94px;
+}
+.section-work-title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.work-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.team-title{
+    display: flex;
+    justify-content: center;
+    
+}
+.team-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.section-team{
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.footer{
+    background:  #2F303A;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+.footer-logo{
+    color: #FFFFFF;
+    
+}
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.address{
+    margin-top: 20px;
+}
+.address-list-link{
+    color: #FFFFFF;
 }
